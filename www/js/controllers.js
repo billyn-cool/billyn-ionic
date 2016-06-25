@@ -35,4 +35,12 @@ angular.module('app.controllers', [])
 .controller('signupCtrl', function($scope) {
 
 })
+   
+.controller('page11Ctrl', function($scope) {
+
+})
+   
+.controller('page12Ctrl', function($scope) {
+
+})
  

@@ -98,6 +98,18 @@ angular.module('app.routes', [])
     controller: 'signupCtrl'
   })
 
+  .state('page11', {
+    url: '/page11',
+    templateUrl: 'templates/page11.html',
+    controller: 'page11Ctrl'
+  })
+
+  .state('page12', {
+    url: '/page12',
+    templateUrl: 'templates/page12.html',
+    controller: 'page12Ctrl'
+  })
+
 $urlRouterProvider.otherwise('/page1/page2')
 
   
